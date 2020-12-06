@@ -1,11 +1,15 @@
 // Import page-specific CSS files here.
 @import "home";
 
-// Defaults
+// DEFAULTS
 * {
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
+	text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, p {
@@ -17,11 +21,24 @@ ul {
 }
 
 a {
-  text-decoration: none;
-  display: inline-block;
+  text-decoration: none !important;
+	display: inline-block;
+	color: inherit !important;
 }
 
-// Media
+.a:hover {
+	text-decoration: none !important;
+	}
+
+a:visited {
+    color: inherit !important;
+}
+
+a:active {
+    color: inherit !important;
+}
+
+// MEDIA QUERIES
 .content-container {
   width: 80vw;
   margin: 0 auto;
@@ -38,28 +55,72 @@ a {
 @media (max-width: 768px) {
   .content-container {
     width: 600px;
-  }
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 576px) {
   .content-container {
     width: 300px;
-  }
+	}
+	.intro-pic {
+		display: none;
+	}
 }
 
-// Text colours
+// TEXT & BACKGROUND COLOURS
 .teal-text {
 	color: $teal;
 }
 
-//INTRO
+.teal-background {
+	background-color: $lighter-teal;
+}
+
+// INTRO
+.intro-container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.hello {
+		font-size: 112px;
+	}
+	.intro-text {
+		margin-bottom: 12px;
+	}
+}
+
 .intro-pic {
 	background-image: url(/assets/images/profile_crop.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50%;
 	border-radius: 32px;
-	height: 400px;
-	width: 400px;
+	height: 480px;
+	width: 480px;
+	margin-right: 24px;
+}
+
+.circle-button-container {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	margin-top: 12px;
+	margin-bottom: 24px;
+	.circle-button {
+		display: grid;
+		place-items: center;
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: $light-teal;
+		transition: width 0.2s, height 0.2s, transform 0.2s, background-color 0.2s;
+	}
+	.circle-button:hover {
+		height: 48px;
+		width: 48px;
+		transform: rotate(20deg);
+		background-color: $teal;
+	}
 }
