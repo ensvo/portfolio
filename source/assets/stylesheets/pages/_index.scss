@@ -40,15 +40,32 @@ a:active {
 
 // MEDIA QUERIES
 .content-container {
-  width: 80vw;
+	width: 80vw;
   margin: 0 auto;
+}
+
+/* Very larger devices */
+@media screen and (min-width: 1400px) {
+  .content-container {
+    width: 700px;
+	}
+}
+@media screen and (min-width: 1600px) {
+  .content-container {
+    width: 1400px;
+	}
+}
+@media screen and (min-width: 1900px) {
+  .content-container {
+    width: 1700px;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (max-width: 992px) {
   .content-container {
     width: 700px;
-  }
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -123,4 +140,11 @@ a:active {
 		transform: rotate(20deg);
 		background-color: $teal;
 	}
+}
+
+// SECTION: ABOUT ME
+
+.section {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
 }
