@@ -52,3 +52,14 @@ a {
 .teal-text {
 	color: $teal;
 }
+
+//INTRO
+.intro-pic {
+	background-image: url(/assets/images/profile_crop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 32px;
+	height: 400px;
+	width: 400px;
+}
