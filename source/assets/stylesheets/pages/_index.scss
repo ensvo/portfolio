@@ -98,20 +98,25 @@ ul {
 	color: $p-white !important;
 }
 
-.dim-gray-text {
-	color: $dim-gray !important;
+.raisin-text {
+	color: $raisin !important;
 }
 
 .teal-background {
 	background-color: $teal;
+	opacity: 1;
+	background-image:  linear-gradient(135deg, #60a9a9 25%, transparent 25%), linear-gradient(225deg, #60a9a9 25%, transparent 25%), linear-gradient(45deg, #60a9a9 25%, transparent 25%), linear-gradient(315deg, #60a9a9 25%, #68b0ab 25%);
+	background-position:  20px 0, 20px 0, 0 0, 0 0;
+	background-size: 40px 40px;
+	background-repeat: repeat;
 }
 
 .lighter-teal-background {
 	background-color: $lighter-teal;
 }
 
-.dim-gray-background {
-	background-color: $dim-gray;
+.raisin-background {
+	background-color: $raisin;
 }
 
 // INTRO
@@ -183,6 +188,10 @@ ul {
 	text-align: center;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
+}
+
+.section-header {
+	margin-bottom: 2vh;
 }
 
 .paragraph-container {
