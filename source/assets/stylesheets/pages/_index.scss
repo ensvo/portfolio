@@ -23,7 +23,7 @@ ul {
 a {
   text-decoration: none !important;
 	display: inline-block;
-	color: inherit !important;
+	color: inherit;
 }
 
 .a:hover {
@@ -87,11 +87,11 @@ a:active {
 
 // TEXT & BACKGROUND COLOURS
 .teal-text {
-	color: $teal;
+	color: $teal !important;
 }
 
 .light-teal-text {
-	color: $light-teal;
+	color: $light-teal !important;
 }
 
 .teal-background {
@@ -99,7 +99,7 @@ a:active {
 }
 
 .p-white-text {
-	color: $p-white;
+	color: $p-white !important;
 }
 
 .dim-gray-background {
@@ -157,6 +157,16 @@ a:active {
 // SECTION: ABOUT ME
 
 .section {
+	text-align: center;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
+}
+
+// SECTION: CONTACT
+.social-container {
+	font-size: 32px;
+}
+
+.footer {
+	font-size: x-small;
 }
