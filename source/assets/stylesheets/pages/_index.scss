@@ -20,23 +20,23 @@ ul {
   padding: 0;
 }
 
-a {
-  text-decoration: none !important;
-	display: inline-block;
-	color: inherit;
-}
+// a {
+//   text-decoration: none !important;
+// 	display: inline-block;
+// 	color: inherit;
+// }
 
-.a:hover {
-	text-decoration: none !important;
-	}
+// .a:hover {
+// 	text-decoration: none !important;
+// 	}
 
-a:visited {
-    color: inherit !important;
-}
+// a:visited {
+//     color: inherit !important;
+// }
 
-a:active {
-    color: inherit !important;
-}
+// a:active {
+//     color: inherit !important;
+// }
 
 // MEDIA QUERIES
 .content-container {
@@ -94,12 +94,16 @@ a:active {
 	color: $light-teal !important;
 }
 
-.teal-background {
-	background-color: $lighter-teal;
-}
-
 .p-white-text {
 	color: $p-white !important;
+}
+
+.teal-background {
+	background-color: $teal;
+}
+
+.lighter-teal-background {
+	background-color: $lighter-teal;
 }
 
 .dim-gray-background {
@@ -137,6 +141,22 @@ a:active {
 	width: 200px;
 	margin-top: 12px;
 	margin-bottom: 24px;
+	a {
+		text-decoration: none !important;
+		display: inline-block;
+		color: $gray;
+	}
+	.a:hover {
+		text-decoration: none !important;
+		}
+	
+	a:visited {
+			color: $gray !important;
+	}
+	
+	a:active {
+			color: $gray !important;
+	}
 	.circle-button {
 		display: grid;
 		place-items: center;
@@ -154,12 +174,21 @@ a:active {
 	}
 }
 
-// SECTION: ABOUT ME
-
 .section {
 	text-align: center;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
+}
+
+// SECTION: ABOUT ME
+.paragraph-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	.paragraph-content {
+    flex: 0 1 300px;
+    margin: 16px;
+	}
 }
 
 // SECTION: CONTACT
