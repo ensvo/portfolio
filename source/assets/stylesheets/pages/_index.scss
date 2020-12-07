@@ -5,7 +5,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	text-decoration: none !important;
+	// text-decoration: none !important;
 }
 
 html {
@@ -98,6 +98,10 @@ ul {
 	color: $p-white !important;
 }
 
+.dim-gray-text {
+	color: $dim-gray !important;
+}
+
 .teal-background {
 	background-color: $teal;
 }
@@ -142,12 +146,12 @@ ul {
 	margin-top: 12px;
 	margin-bottom: 24px;
 	a {
-		text-decoration: none !important;
+		text-decoration: none;
 		display: inline-block;
 		color: $gray;
 	}
 	.a:hover {
-		text-decoration: none !important;
+		text-decoration: none;
 		}
 	
 	a:visited {
@@ -174,13 +178,13 @@ ul {
 	}
 }
 
+// SECTIONS
 .section {
 	text-align: center;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
 }
 
-// SECTION: ABOUT ME
 .paragraph-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -189,6 +193,27 @@ ul {
     flex: 0 1 300px;
     margin: 16px;
 	}
+}
+
+.about-container {
+	a {
+		color: $teal;
+	}
+	a:hover {
+		color: $teal;
+		font-weight: bold;
+		text-decoration: none;
+		transition: 1s;
+	}
+}
+
+.skill {
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 8px;
+	background-color: $lighter-teal;
+	padding: 0 1em;
+	margin: 4px;
 }
 
 // SECTION: CONTACT

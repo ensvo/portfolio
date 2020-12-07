@@ -18,6 +18,7 @@
 	</div>
 </div>
 
+<!--------------------ABOUT ME-------------------->
 <div class="lighter-teal-background">
 	<a id="about"></a>
 	<div class="content-container section about-container">
@@ -27,35 +28,81 @@
 				<p>I am a full-stack web developer, comitted to a journey of <a href="#skills">learning new tools and skills</a> in pursuit of channeling my creativity through creating memorable, maintainable websites with delightful UI.</p>
 			</div>
 			<div class="paragraph-content">
-				<p>I come from a background working for the Government of Japan and consulting billion-dollar Pharmaceutical companies during a <a href="http://www.linkedin.com/in/elizabeth-vo" target="_blank">fruitful 5 year career purely in start up environments</a> across the education sector, recruitment and sales.</p>
+				<p>I have a background in working for the Government of Japan and consulting billion-dollar Pharmaceutical companies during a <a href="http://www.linkedin.com/in/elizabeth-vo" target="_blank">fruitful 5 year career purely in start up environments</a> across the education sector, recruitment and sales.</p>
 			</div>
 			<div class="paragraph-content">
 				<p>There is almost nothing better than waking up on a warm Sunday morning to the <a href="https://youtu.be/oYEYc8Ge3nw" target="_blank">distant warbling of magpies</a> and the scent of freshly baked pastry meat pies.</p>
-				<p>(Except maybe squishing the last bug in your code.)</p>
+				<p><em>(Except maybe squishing the last bug in your code.)</em></p>
 			</div>
 		</div>
 	</div>
 </div>
 
+<!--------------------SKILLS-------------------->
+<% programming = ["HTML5", "CSS3/Sass", "JavaScript", "Ruby"] %>
+<% frameworks = ["Ruby on Rails", "React", "Tailwind CSS", "Bootstrap", "SQL", "PostgreSQL", "SQLite3"] %>
+<% tools = ["Git/Github", "Heroku/Netlify", "Command Line", "Figma"] %>
+<% hard_skills = ["English (Native)", "Japanese (JLPT N2)", "UI & UX Design", "APIs/Scraping", "OOP", "Product Prototyping"] %>
 <div class="teal-background">
 	<a id="skills"></a>
-	<div class="content-container section skills-container p-white-text">
-		<h1 data-aos="flip-down">Technical Stack and Skills</h1>
-		<p>Ruby and shit</p>
+	<div class="content-container section skills-container">
+		<h1 data-aos="flip-down">Technical Stack and Hard Skills</h1>
+		<div class="paragraph-container">
+
+			<div class="paragraph-content" data-aos="fade-right">
+				<h4 class="p-white-text">Programming Languages</h4>
+				<% programming.each do |x| %>
+					<div class="skill">
+						<p><%= x %></p>
+					</div>
+				<% end %>
+			</div>
+
+			<div class="paragraph-content" data-aos="fade-right">
+				<h4 class="p-white-text">Libraries & Frameworks</h4>
+				<% frameworks.each do |x| %>
+					<div class="skill">
+						<p><%= x %></p>
+					</div>
+				<% end %>
+			</div>
+
+			<div class="paragraph-content" data-aos="fade-left">
+				<h4 class="p-white-text">Tools & Platforms</h4>
+				<% tools.each do |x| %>
+					<div class="skill">
+						<p><%= x %></p>
+					</div>
+				<% end %>
+			</div>
+
+			<div class="paragraph-content" data-aos="fade-left">
+				<h4 class="p-white-text">Hard Skills & Languages</h4>
+				<% hard_skills.each do |x| %>
+					<div class="skill">
+						<p><%= x %></p>
+					</div>
+				<% end %>
+			</div>
+
+		</div>
 	</div>
 </div>
 
+<!--------------------PROJECTS-------------------->
 <a id="projects"></a>
 <div class="content-container section projects-container">
 	<h1 data-aos="flip-down">Projects</h1>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
 </div>
 
+<!--------------------WIP-------------------->
 <div class="content-container section projects-container">
 	<h1 data-aos="flip-down">What I'm working on</h1>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
 </div>
 
+<!--------------------CONTACT-------------------->
 <div class="dim-gray-background">
 	<a id="contact"></a>
 	<div class="content-container section contact-container">
