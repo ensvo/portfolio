@@ -44,7 +44,7 @@ a:active {
   margin: 0 auto;
 }
 
-/* Very larger devices */
+/* Very large devices */
 @media screen and (min-width: 1400px) {
   .content-container {
     width: 700px;
@@ -90,8 +90,20 @@ a:active {
 	color: $teal;
 }
 
+.light-teal-text {
+	color: $light-teal;
+}
+
 .teal-background {
 	background-color: $lighter-teal;
+}
+
+.p-white-text {
+	color: $p-white;
+}
+
+.dim-gray-background {
+	background-color: $dim-gray;
 }
 
 // INTRO
