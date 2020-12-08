@@ -201,18 +201,22 @@ ul {
 	.paragraph-content {
     flex: 0 1 300px;
     margin: 16px;
+    h4 {
+      font-family: "Poppins";
+      font-weight: 700;
+    }
 	}
 }
 
 .about-container {
 	a {
-		color: $teal;
+    color: $teal;
+    transition: 0.1s;
 	}
 	a:hover {
-		color: $teal;
+		color: darken;
 		font-weight: bold;
 		text-decoration: none;
-		transition: 1s;
 	}
 }
 
