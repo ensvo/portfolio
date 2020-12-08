@@ -11,8 +11,8 @@
 		</div>
 		<div class="circle-button-container">
 			<a href="#about"><div class="circle-button"><i class="lni lni-emoji-happy"></i></div></a>
-			<a href="#skills"><div class="circle-button"><i class="lni lni-layers"></i></div></a>
 			<a href="#projects"><div class="circle-button"><i class="lni lni-folder"></i></div></a>
+			<a href="#skills"><div class="circle-button"><i class="lni lni-layers"></i></div></a>
 			<a href="#contact"><div class="circle-button"><i class="lni lni-comments-alt"></i></div></a>
 		</div>
 	</div>
@@ -28,20 +28,33 @@
 				<p>I am a full-stack web developer, comitted to a journey of <a href="#skills">learning new tools and skills</a> in pursuit of channeling my creativity through creating memorable, maintainable websites with delightful UI.</p>
 			</div>
 			<div class="paragraph-content">
-				<p>I have a background in working for the Government of Japan and consulting billion-dollar Pharmaceutical companies from a <a href="http://www.linkedin.com/in/elizabeth-vo" target="_blank">fruitful 5 year career purely in start up environments</a> across the education sector, recruitment and sales.</p>
+				<p>I have a background in working for the Government of Japan and consulting Pharmaceutical companies from a <a href="http://www.linkedin.com/in/elizabeth-vo" target="_blank">fruitful 5 year career purely in start up environments</a> across the education sector, recruitment and sales.</p>
 			</div>
 			<div class="paragraph-content">
-				<p>There is almost nothing better than waking up on a warm Sunday morning to the <a href="https://youtu.be/oYEYc8Ge3nw" target="_blank">distant warbling of magpies</a> and the scent of freshly baked pastry meat pies.</p>
-				<p><em>(Except maybe squishing the last bug in your code!)</em></p>
+				<p>There is almost nothing I love more than waking up on a warm Sunday morning to the <a href="https://youtu.be/oYEYc8Ge3nw" target="_blank">distant warbling of magpies</a> and the scent of freshly baked pastry meat pies.</p>
+				<p><em>(Except maybe squashing the last bug in my code!)</em></p>
 			</div>
 		</div>
 	</div>
 </div>
 
+<!--------------------PROJECTS-------------------->
+<a id="projects"></a>
+<div class="content-container section projects-container">
+	<h1 data-aos="flip-down" class="section-header">Projects</h1>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
+</div>
+
+<!--------------------WIP-------------------->
+<div class="content-container section projects-container">
+	<h1 data-aos="flip-down" class="section-header">Currently working on</h1>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
+</div>
+
 <!--------------------SKILLS-------------------->
 <% programming = ["HTML5", "CSS3/Sass", "JavaScript", "Ruby"] %>
-<% frameworks = ["Ruby on Rails", "React", "Tailwind CSS", "Bootstrap", "SQL", "PostgreSQL", "SQLite3"] %>
-<% tools = ["Git/Github", "Heroku/Netlify", "Command Line", "Figma"] %>
+<% frameworks = ["Ruby on Rails", "xReact", "xTailwind CSS", "Bootstrap", "SQL", "PostgreSQL", "SQLite3"] %>
+<% tools = ["Git/Github", "Heroku", "Netlify", "Command Line", "Figma", "Trello"] %>
 <% hard_skills = ["English (Native)", "Japanese (JLPT N2)", "UI & UX Design", "APIs/Scraping", "OOP", "Product Prototyping"] %>
 <div class="teal-background">
 	<a id="skills"></a>
@@ -62,7 +75,9 @@
 				<h4 class="p-white-text">Libraries & Frameworks</h4>
 				<% frameworks.each do |x| %>
 					<div class="skill">
-						<p><%= x %></p>
+						<% if x[0] != "x" %>
+							<p><%= x %></p>
+						<% end %>
 					</div>
 				<% end %>
 			</div>
@@ -87,19 +102,6 @@
 
 		</div>
 	</div>
-</div>
-
-<!--------------------PROJECTS-------------------->
-<a id="projects"></a>
-<div class="content-container section projects-container">
-	<h1 data-aos="flip-down" class="section-header">Projects</h1>
-	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
-</div>
-
-<!--------------------WIP-------------------->
-<div class="content-container section projects-container">
-	<h1 data-aos="flip-down" class="section-header">What I'm working on</h1>
-	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
 </div>
 
 <!--------------------CONTACT-------------------->

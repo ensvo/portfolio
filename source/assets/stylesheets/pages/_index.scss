@@ -226,6 +226,17 @@ ul {
 }
 
 // SECTION: CONTACT
+.contact-container {
+	a {
+		color: $teal;
+	}
+	a:hover {
+		color: darken;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+
 .top-arrow {
 	font-size: 24px;
 	margin-top: 2vh;
