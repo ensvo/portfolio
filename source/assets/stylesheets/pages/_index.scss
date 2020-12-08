@@ -232,11 +232,11 @@ ul {
 // SECTION: CONTACT
 .contact-container {
 	a {
-		color: $teal;
+    color: $teal;
+    transition: 0.3s ease-in-out;
 	}
 	a:hover {
-		color: darken;
-		font-weight: bold;
+    color: #56eade;
 		text-decoration: none;
 	}
 }
