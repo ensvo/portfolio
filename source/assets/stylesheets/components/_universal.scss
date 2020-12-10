@@ -1,0 +1,102 @@
+// DEFAULTS
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+// MEDIA QUERIES
+.content-container {
+	width: 80vw;
+  margin: 0 auto;
+}
+
+/* Very large devices */
+@media screen and (min-width: 1400px) {
+  .content-container {
+    width: 700px;
+	}
+}
+@media screen and (min-width: 1600px) {
+  .content-container {
+    width: 1400px;
+	}
+}
+@media screen and (min-width: 1900px) {
+  .content-container {
+    width: 1700px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+  .content-container {
+    width: 700px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+  .content-container {
+    width: 600px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 576px) {
+  .content-container {
+    width: 320px;
+	}
+	.intro-pic {
+		display: none;
+  }
+}
+
+// TEXT & BACKGROUND COLOURS
+.underline-text {
+  text-decoration: underline !important;
+}
+
+.teal-text {
+	color: $teal !important;
+}
+
+.light-teal-text {
+	color: $light-teal !important;
+}
+
+.p-white-text {
+	color: $p-white !important;
+}
+
+.raisin-text {
+	color: $raisin !important;
+}
+
+.teal-background {
+	background-color: $teal;
+	opacity: 1;
+	background-image:  linear-gradient(135deg, #60a9a9 25%, transparent 25%), linear-gradient(225deg, #60a9a9 25%, transparent 25%), linear-gradient(45deg, #60a9a9 25%, transparent 25%), linear-gradient(315deg, #60a9a9 25%, #68b0ab 25%);
+	background-position:  20px 0, 20px 0, 0 0, 0 0;
+	background-size: 40px 40px;
+	background-repeat: repeat;
+}
+
+.lighter-teal-background {
+	background-color: $lighter-teal;
+}
+
+.raisin-background {
+	background-color: $raisin;
+}

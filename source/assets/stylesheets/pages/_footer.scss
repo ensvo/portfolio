@@ -1,0 +1,29 @@
+// SECTION: CONTACT
+.contact-container {
+	a {
+    color: $teal;
+    transition: 0.4s ease-in-out;
+	}
+	a:hover {
+    color: $lighter-teal;
+		text-decoration: none;
+	}
+}
+
+.email-text {
+  margin-left: 2px;
+}
+
+.social-container {
+  font-size: 32px;
+}
+
+.top-arrow {
+  font-size: 24px;
+  margin-top: 2.5vh;
+}
+
+.footer {
+  margin-top: 8px;
+	font-size: x-small;
+}

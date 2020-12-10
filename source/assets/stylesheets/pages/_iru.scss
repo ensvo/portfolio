@@ -1,0 +1,90 @@
+// INTRO
+.project-intro-container {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+  .project-intro-content {
+    flex: 0 1 400px;
+    margin: 16px;
+  }
+  .project-intro-text {
+    margin-bottom: 12px;
+    margin-right: 24px;
+    text-align: right;
+  }
+	.project-greeting-text {
+		font-size: 64px;
+  }
+  .project-intro-pic {
+    background-image: url(/assets/images/profile_crop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 320px;
+    width: 640px;
+  }
+  .project-links-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+    margin-right: 24px;
+    font-size: 32px;
+    a {
+      text-decoration: none;
+      display: inline-block;
+      color: $gray;
+    }
+    .a:hover {
+      text-decoration: none;
+      }
+    
+    a:visited {
+        color: $gray !important;
+    }
+    
+    a:active {
+        color: $gray !important;
+    }
+    .link-button {
+      display: grid;
+      place-items: center;
+      padding: 4px 1em;
+      margin: 2px;
+      border-radius: 4px;
+      background-color: $light-teal;
+      transition: height 0.4s, transform 0.4s, background-color 0.4s;
+    }
+    .link-button:hover {
+      height: 120%;
+      color: $p-white;
+      background-color: $teal;
+    }
+  }
+}
+
+// GENERAL SECTIONS
+.project-section {
+	text-align: center;
+	padding-top: 7.5vh;
+	padding-bottom: 7.5vh;
+}
+
+.project-section-header {
+  margin-bottom: 8px;
+}
+
+.project-paragraph-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	.project-paragraph-content {
+    flex: 0 1 500px;
+    margin: 16px;
+    h4 {
+      font-family: "Poppins";
+      font-weight: 700;
+    }
+	}
+}
