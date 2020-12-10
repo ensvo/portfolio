@@ -41,3 +41,6 @@ configure :build do
   activate :minify_css
   activate :relative_assets
 end
+
+# Added by me
+activate :directory_indexes # pretty URLs

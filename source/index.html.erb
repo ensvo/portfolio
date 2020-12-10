@@ -33,7 +33,7 @@
 			</div>
 			<div class="paragraph-content">
 				<p>There is almost nothing I love more than waking up on a warm Sunday morning to the <a href="https://youtu.be/oYEYc8Ge3nw" target="_blank">distant warbling of magpies</a> and the scent of freshly baked pastry meat pies.</p>
-				<p><em>Except maybe squashing the last bug in my code!</em></p>
+				<p><em>Except maybe squashing the last bug in my code!</em> <i class="far fa-smile-wink"></i></p>
 			</div>
 		</div>
 	</div>
@@ -50,13 +50,16 @@
 <div class="content-container section projects-container">
 	<h1 data-aos="flip-down" class="section-header">Currently working on</h1>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
+  <% if false %>
+    <p><%= link_to 'This is a link', '/iru.html', :relative => true %></p>
+  <% end %>
 </div>
 
 <!--------------------SKILLS-------------------->
-<% programming = ["HTML5", "CSS3/Sass", "JavaScript", "Ruby"] %>
+<% languages = ["HTML5", "CSS3/Sass", "JavaScript", "Ruby"] %>
 <% frameworks = ["Ruby on Rails", "xReact", "xTailwind CSS", "Bootstrap", "SQL", "PostgreSQL", "SQLite3"] %>
-<% tools = ["Git/Github", "Heroku", "Netlify", "Command Line", "Figma", "Trello"] %>
-<% hard_skills = ["English (Native)", "Japanese (JLPT N2)", "UI & UX Design", "APIs/Scraping", "OOP", "Product Prototyping"] %>
+<% tools = ["Git/Github", "Heroku", "Netlify", "Command Line", "Figma", "Trello", "Slack", "G-Suite"] %>
+<% hard_skills = ["English (Native)", "Japanese (JLPT N2)", "Responsive Design", "UI & UX Design", "APIs/Scraping", "OOP", "Product Prototyping"] %>
 <div class="teal-background">
 	<a id="skills"></a>
 	<div class="content-container section skills-container">
@@ -65,7 +68,7 @@
 
 			<div class="paragraph-content" data-aos="fade-right">
 				<h4 class="p-white-text">Languages</h4>
-				<% programming.each do |x| %>
+				<% languages.each do |x| %>
 					<div class="skill">
 						<p><%= x %></p>
 					</div>
@@ -111,7 +114,10 @@
 	<div class="content-container section contact-container">
 		<h1 data-aos="flip-down" class="teal-text section-header">Let's <span class="p-white-text">create</span> something together?</h1>
 		<p class="p-white-text">Whether it be a web app, or the start of a new conversation, you're welcome to reach out!</p>
-		<span class="light-teal-text"><i class="far fa-envelope"></i><a class="ml-2" href='ma&#105;&#108;t&#111;&#58;he%&#54;C&#108;%6F&#37;&#52;0e&#110;svo%&#50;Em%6&#53;'>&#104;ello&#64;ensvo&#46;m&#101;</a></span>
+		<span class="light-teal-text">
+      <i class="far fa-envelope"></i>
+      <a class="email-text" href='ma&#105;&#108;t&#111;&#58;he%&#54;C&#108;%6F&#37;&#52;0e&#110;svo%&#50;Em%6&#53;'>&#104;ello&#64;ensvo&#46;m&#101;</a>
+    </span>
 		<div class="social-container">
 			<a href="https://github.com/ensvo" target="_blank"><i class="lni lni-github-original"></i></a>
 			<a href="https://www.linkedin.com/in/elizabeth-vo/" target="_blank"><i class="lni lni-linkedin-original"></i></a>
@@ -120,6 +126,6 @@
 		<div class="top-arrow">
 			<a href="#"><i class="fas fa-arrow-circle-up"></i></a>
 		</div>
-		<p class="footer mt-4">© Elizabeth Vo 2020</p>
+		<p class="footer">© Elizabeth Vo 2020</p>
 	</div>
 </div>
