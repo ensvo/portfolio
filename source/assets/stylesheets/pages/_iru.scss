@@ -84,29 +84,7 @@
 	margin: 0 auto;
 }
 
-/* Very large devices */
-@media screen and (min-width: 1400px) {
-	.content-container {
-		width: 700px;
-	}
-	.project-intro-container {
-		padding-top: 10vh;
-		padding-bottom: 10vh;
-	}
-	.project-section {
-		text-align: center;
-		padding-top: 7.5vh;
-		padding-bottom: 7.5vh;
-	}
-	.project-intro-pic {
-		background-image: url(/assets/images/iru_landing.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50%;
-		height: 320px;
-		width: 640px;
-	}
-}
+/* Really, really large screens */
 @media screen and (min-width: 1600px) {
 	.content-container {
 		width: 1400px;
@@ -128,34 +106,44 @@
 		height: 320px;
 		width: 640px;
 	}
-}
-@media screen and (min-width: 1900px) {
-	.content-container {
-		width: 1700px;
-	}
-	.project-intro-container {
-		padding-top: 10vh;
-		padding-bottom: 10vh;
-	}
-	.project-section {
-		text-align: center;
-		padding-top: 7.5vh;
-		padding-bottom: 7.5vh;
-	}
-	.project-intro-pic {
-		background-image: url(/assets/images/iru_landing.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50%;
-		height: 320px;
-		width: 640px;
+	.map-giphy-embed {
+		height: 240px;
+		width: 480px;
 	}
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media (max-width: 992px) {
+/* Larger devices (extra large screens) */
+@media screen and (max-width: 1400px) {
 	.content-container {
-		width: 700px;
+		width: 1200px;
+	}
+	.project-intro-container {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+	.project-section {
+		text-align: center;
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+	.project-intro-pic {
+		background-image: url(/assets/images/iru_landing.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		height: 320px;
+		width: 640px;
+	}
+	.map-giphy-embed {
+		height: 240px;
+		width: 480px;
+	}
+}
+
+/* Larger devices (desktops/large screens) */
+@media (max-width: 1200px) {
+	.content-container {
+		width: 1004px;
 	}
 	.project-intro-container {
 		padding-top: 10vh;
@@ -168,11 +156,45 @@
 	}
 	.project-intro-pic {
 		background-image: url(/assets/images/iru_landing.png);
+		display: block;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50%;
 		height: 320px;
 		width: 640px;
+	}
+	.map-giphy-embed {
+		height: 240px;
+		width: 480px;
+	}
+}
+
+/* Large devices (small screens/laptops) */
+@media (max-width: 1024px) {
+	.content-container {
+		width: 800px;
+	}
+	.project-intro-container {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+	.project-section {
+		text-align: center;
+		padding-top: 7.5vh;
+		padding-bottom: 7.5vh;
+	}
+	.project-intro-pic {
+		background-image: url(/assets/images/iru_landing.png);
+		display: block;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		height: 320px;
+		width: 640px;
+	}
+	.map-giphy-embed {
+		height: 240px;
+		width: 480px;
 	}
 }
 
@@ -198,10 +220,14 @@
 		height: 300px;
 		width: 600px;
 	}
+	.map-giphy-embed {
+		height: 240px;
+		width: 480px;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (max-width: 576px) {
+@media (max-width: 480px) {
 	.content-container {
 		width: 320px;
 	}
@@ -220,6 +246,10 @@
 		background-repeat: no-repeat;
 		background-position: 50%;
 		height: 160px;
+		width: 320px;
+	}
+	.map-giphy-embed {
+		height: 240px;
 		width: 320px;
 	}
 }

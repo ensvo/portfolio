@@ -109,5 +109,7 @@ ul {
 
 .map-background {
 	background-image: url(/assets/images/map.png);
-	box-shadow: inset 0 0 0 1000px rgba(228, 241, 241, 0.65);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(228, 241, 241, 0.7);
 }
