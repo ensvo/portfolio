@@ -58,6 +58,15 @@
 // GENERAL SECTIONS
 .project-section {
 	text-align: center;
+	a {
+		color: $teal;
+		transition: 0.1s;
+	}
+	a:hover {
+		color: darken;
+		font-weight: bold;
+		text-decoration: none;
+	}
 }
 
 .project-section-header {
@@ -75,6 +84,9 @@
 			font-family: "Poppins";
 			font-weight: 700;
 		}
+	}
+	.challenges-paragraph {
+		text-align: left;
 	}
 }
 
@@ -107,22 +119,22 @@
 		width: 640px;
 	}
 	.map-gif {
-		background-image: url(https://i.imgur.com/hFAzXuz.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		height: 240px;
 		width: 480px;
 	}
 	.donation-gif {
-		background-image: url(https://i.imgur.com/wyHbo7g.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.comment-gif {
-		background-image: url(https://i.imgur.com/wK7dnNa.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.sns-gif {
-		background-image: url(https://i.imgur.com/9bL6pdL.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
 		width: 480px;
 		height: 240px;
 	}
@@ -151,22 +163,22 @@
 		width: 640px;
 	}
 	.map-gif {
-		background-image: url(https://i.imgur.com/hFAzXuz.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		height: 240px;
 		width: 480px;
 	}
 	.donation-gif {
-		background-image: url(https://i.imgur.com/wyHbo7g.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.comment-gif {
-		background-image: url(https://i.imgur.com/wK7dnNa.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.sns-gif {
-		background-image: url(https://i.imgur.com/9bL6pdL.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
 		width: 480px;
 		height: 240px;
 	}
@@ -196,22 +208,22 @@
 		width: 640px;
 	}
 	.map-gif {
-		background-image: url(https://i.imgur.com/hFAzXuz.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		height: 240px;
 		width: 480px;
 	}
 	.donation-gif {
-		background-image: url(https://i.imgur.com/wyHbo7g.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.comment-gif {
-		background-image: url(https://i.imgur.com/wK7dnNa.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.sns-gif {
-		background-image: url(https://i.imgur.com/9bL6pdL.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
 		width: 480px;
 		height: 240px;
 	}
@@ -241,22 +253,22 @@
 		width: 640px;
 	}
 	.map-gif {
-		background-image: url(https://i.imgur.com/hFAzXuz.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		height: 240px;
 		width: 480px;
 	}
 	.donation-gif {
-		background-image: url(https://i.imgur.com/wyHbo7g.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.comment-gif {
-		background-image: url(https://i.imgur.com/wK7dnNa.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.sns-gif {
-		background-image: url(https://i.imgur.com/9bL6pdL.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
 		width: 480px;
 		height: 240px;
 	}
@@ -285,22 +297,22 @@
 		width: 600px;
 	}
 	.map-gif {
-		background-image: url(https://i.imgur.com/hFAzXuz.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		height: 240px;
 		width: 480px;
 	}
 	.donation-gif {
-		background-image: url(https://i.imgur.com/wyHbo7g.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.comment-gif {
-		background-image: url(https://i.imgur.com/wK7dnNa.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		width: 480px;
 		height: 240px;
 	}
 	.sns-gif {
-		background-image: url(https://i.imgur.com/9bL6pdL.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
 		width: 480px;
 		height: 240px;
 	}
@@ -329,25 +341,25 @@
 		width: 320px;
 	}
 	.map-gif {
-		background-image: url(https://i.imgur.com/hFAzXuz.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		background-size: cover;
 		width: 320px;
 		height: 160px;
 	}
 	.donation-gif {
-		background-image: url(https://i.imgur.com/wyHbo7g.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		background-size: cover;
 		width: 320px;
 		height: 160px;
 	}
 	.comment-gif {
-		background-image: url(https://i.imgur.com/wK7dnNa.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		background-size: cover;
 		width: 320px;
 		height: 160px;
 	}
 	.sns-gif {
-		background-image: url(https://i.imgur.com/9bL6pdL.gif);
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
 		background-size: cover;
 		width: 320px;
 		height: 160px;
