@@ -81,7 +81,6 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	.paragraph-content {
-		flex: 0 1 300px;
 		margin: 16px;
 		h4 {
 			font-family: "Poppins";
@@ -111,4 +110,69 @@
 	background-color: $lighter-teal;
 	padding: 0 1em;
 	margin: 4px;
+}
+
+// MEDIA QUERIES
+.content-container {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+/* Very large devices */
+@media screen and (min-width: 1600px) {
+	.content-container {
+		width: 1700px;
+	}
+	.paragraph-content {
+		flex: 0 1 300px;
+	}
+}
+@media screen and (min-width: 1400px) {
+	.content-container {
+		width: 1400px;
+	}
+	.paragraph-content {
+		flex: 0 1 300px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.content-container {
+		width: 700px;
+	}
+	.paragraph-content {
+		flex: 0 1 300px;
+	}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 1024px) {
+	.content-container {
+		width: 700px;
+	}
+	.paragraph-content {
+		flex: 0 1 300px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+	.content-container {
+		width: 600px;
+	}
+	.paragraph-content {
+		flex: 0 1 480px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 480px) {
+	.content-container {
+		width: 320px;
+	}
+	.intro-pic {
+		display: none;
+	}
+	.paragraph-content {
+		flex: 0 1 300px;
+	}
 }

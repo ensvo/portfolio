@@ -19,53 +19,6 @@ ul {
 	padding: 0;
 }
 
-// MEDIA QUERIES
-.content-container {
-	width: 80vw;
-	margin: 0 auto;
-}
-
-/* Very large devices */
-@media screen and (min-width: 1600px) {
-	.content-container {
-		width: 1700px;
-	}
-}
-@media screen and (min-width: 1400px) {
-	.content-container {
-		width: 1400px;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.content-container {
-		width: 700px;
-	}
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media (max-width: 1024px) {
-	.content-container {
-		width: 700px;
-	}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media (max-width: 768px) {
-	.content-container {
-		width: 600px;
-	}
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media (max-width: 480px) {
-	.content-container {
-		width: 320px;
-	}
-	.intro-pic {
-		display: none;
-	}
-}
-
 // TEXT & BACKGROUND COLOURS
 .underline-text {
 	text-decoration: underline !important;
