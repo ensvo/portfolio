@@ -110,10 +110,10 @@
 	}
 	.project-section {
 		text-align: center;
-		padding-top: 7.5vh;
-		padding-bottom: 7.5vh;
+		padding-top: 10vh;
+		padding-bottom: 10vh;
 	}
-	.project-intro-pic {
+	.project-iru-pic {
 		background-image: url(/assets/images/iru_landing.png);
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -121,23 +121,55 @@
 		height: 320px;
 		width: 640px;
 	}
-	.map-gif {
+	.project-foxy-pic {
+		background-image: url(/assets/images/foxybeats_landing.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		height: 320px;
+		width: 640px;
+	}
+	.iru-map-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		height: 240px;
 		width: 480px;
 	}
-	.donation-gif {
+	.iru-donation-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		width: 480px;
 		height: 240px;
 	}
-	.comment-gif {
+	.iru-comment-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		width: 480px;
 		height: 240px;
 	}
-	.sns-gif {
+	.iru-sns-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
+		width: 480px;
+		height: 240px;
+	}
+	.foxy-search-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043070/searching_gif_skrdk1.gif);
+		background-repeat: no-repeat;
+		width: 480px;
+		height: 240px;
+	}
+	.foxy-add-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043061/add_new_gif_oe1sfu.gif);
+		background-repeat: no-repeat;
+		width: 480px;
+		height: 240px;
+	}
+	.foxy-rent-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043060/renting_gif_tvldrw.gif);
+		background-repeat: no-repeat;
+		width: 480px;
+		height: 240px;
+	}
+	.foxy-accept-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043060/accept_reject_gif_bfakfr.gif);
+		background-repeat: no-repeat;
 		width: 480px;
 		height: 240px;
 	}
@@ -157,34 +189,6 @@
 		padding-top: 10vh;
 		padding-bottom: 10vh;
 	}
-	.project-intro-pic {
-		background-image: url(/assets/images/iru_landing.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50%;
-		height: 320px;
-		width: 640px;
-	}
-	.map-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
-		height: 240px;
-		width: 480px;
-	}
-	.donation-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.comment-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.sns-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
-		width: 480px;
-		height: 240px;
-	}
 }
 
 /* Larger devices (desktops/large screens) */
@@ -201,35 +205,6 @@
 		padding-top: 7.5vh;
 		padding-bottom: 7.5vh;
 	}
-	.project-intro-pic {
-		background-image: url(/assets/images/iru_landing.png);
-		display: block;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50%;
-		height: 320px;
-		width: 640px;
-	}
-	.map-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
-		height: 240px;
-		width: 480px;
-	}
-	.donation-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.comment-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.sns-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
-		width: 480px;
-		height: 240px;
-	}
 }
 
 /* Large devices (small screens/laptops) */
@@ -240,40 +215,6 @@
 	.project-intro-container {
 		padding-top: 10vh;
 		padding-bottom: 10vh;
-	}
-	.project-section {
-		text-align: center;
-		padding-top: 7.5vh;
-		padding-bottom: 7.5vh;
-	}
-	.project-intro-pic {
-		background-image: url(/assets/images/iru_landing.png);
-		display: block;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50%;
-		height: 320px;
-		width: 640px;
-	}
-	.map-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
-		height: 240px;
-		width: 480px;
-	}
-	.donation-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.comment-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.sns-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
-		width: 480px;
-		height: 240px;
 	}
 }
 
@@ -286,12 +227,7 @@
 		padding-top: 10vh;
 		padding-bottom: 10vh;
 	}
-	.project-section {
-		text-align: center;
-		padding-top: 7.5vh;
-		padding-bottom: 7.5vh;
-	}
-	.project-intro-pic {
+	.project-iru-pic {
 		background-image: url(/assets/images/iru_landing.png);
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -299,25 +235,13 @@
 		height: 300px;
 		width: 600px;
 	}
-	.map-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
-		height: 240px;
-		width: 480px;
-	}
-	.donation-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.comment-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
-		width: 480px;
-		height: 240px;
-	}
-	.sns-gif {
-		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
-		width: 480px;
-		height: 240px;
+	.project-foxy-pic {
+		background-image: url(/assets/images/foxybeats_landing.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		height: 300px;
+		width: 600px;
 	}
 }
 
@@ -335,7 +259,7 @@
 		padding-top: 5vh;
 		padding-bottom: 5vh;
 	}
-	.project-intro-pic {
+	.project-iru-pic {
 		background-image: url(/assets/images/iru_landing.png);
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -343,27 +267,63 @@
 		height: 160px;
 		width: 320px;
 	}
-	.map-gif {
+	.project-foxy-pic {
+		background-image: url(/assets/images/foxybeats_landing.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		height: 160px;
+		width: 320px;
+	}
+	.iru-map-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978350/map_filtering_gif_nih6hm.gif);
 		background-size: cover;
 		width: 320px;
 		height: 160px;
 	}
-	.donation-gif {
+	.iru-donation-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/donation_gif_xsefru.gif);
 		background-size: cover;
 		width: 320px;
 		height: 160px;
 	}
-	.comment-gif {
+	.iru-comment-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978348/comment_gif_tjvjun.gif);
 		background-size: cover;
 		width: 320px;
 		height: 160px;
 	}
-	.sns-gif {
+	.iru-sns-gif {
 		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1610978349/sns_gif_srfgwv.gif);
 		background-size: cover;
+		width: 320px;
+		height: 160px;
+	}
+	.foxy-search-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043070/searching_gif_skrdk1.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 320px;
+		height: 160px;
+	}
+	.foxy-add-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043061/add_new_gif_oe1sfu.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 320px;
+		height: 160px;
+	}
+	.foxy-rent-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043060/renting_gif_tvldrw.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 320px;
+		height: 160px;
+	}
+	.foxy-accept-gif {
+		background-image: url(https://res.cloudinary.com/ensvo/image/upload/v1611043060/accept_reject_gif_bfakfr.gif);
+		background-size: cover;
+		background-repeat: no-repeat;
 		width: 320px;
 		height: 160px;
 	}
