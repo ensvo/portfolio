@@ -5,12 +5,11 @@
 
 // External libraries
 // Using CDN for font-awesome
-@import 'bootstrap/scss/bootstrap';
-
+@import "bootstrap/scss/bootstrap";
 
 // Your CSS partials
 @import "components/index";
 @import "components/universal";
 @import "components/footer";
 @import "pages/index";
-@import "pages/iru";
+@import "pages/project";

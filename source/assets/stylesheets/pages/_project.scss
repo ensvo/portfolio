@@ -100,7 +100,7 @@
 }
 
 /* Really, really large screens */
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1800px) {
 	.content-container {
 		width: 1400px;
 	}
@@ -190,7 +190,7 @@
 /* Larger devices (desktops/large screens) */
 @media (max-width: 1200px) {
 	.content-container {
-		width: 1004px;
+		width: 1000px;
 	}
 	.project-intro-container {
 		padding-top: 10vh;
