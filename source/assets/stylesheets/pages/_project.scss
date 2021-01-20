@@ -88,9 +88,6 @@
 	.challenges-paragraph {
 		text-align: left;
 	}
-	#lessons-paragraph {
-		margin-left: 3vw;
-	}
 }
 
 // MEDIA QUERIES
@@ -100,7 +97,7 @@
 }
 
 /* Really, really large screens */
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 3840px) {
 	.content-container {
 		width: 1400px;
 	}
@@ -180,25 +177,12 @@
 	.content-container {
 		width: 1200px;
 	}
-	.project-intro-container {
-		padding-top: 10vh;
-		padding-bottom: 10vh;
-	}
-	.project-section {
-		text-align: center;
-		padding-top: 10vh;
-		padding-bottom: 10vh;
-	}
 }
 
 /* Larger devices (desktops/large screens) */
 @media (max-width: 1200px) {
 	.content-container {
 		width: 1000px;
-	}
-	.project-intro-container {
-		padding-top: 10vh;
-		padding-bottom: 10vh;
 	}
 	.project-section {
 		text-align: center;
@@ -212,20 +196,12 @@
 	.content-container {
 		width: 800px;
 	}
-	.project-intro-container {
-		padding-top: 10vh;
-		padding-bottom: 10vh;
-	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 768px) {
 	.content-container {
 		width: 600px;
-	}
-	.project-intro-container {
-		padding-top: 10vh;
-		padding-bottom: 10vh;
 	}
 	.project-iru-pic {
 		background-image: url(/assets/images/iru_landing.png);

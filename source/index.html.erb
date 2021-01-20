@@ -51,19 +51,25 @@
 <a id="projects"></a>
 <div class="content-container section projects-container">
 	<h1 data-aos="flip-down" class="section-header">Projects</h1>
-	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
-</div>
-
-<!--------------------WIP-------------------->
-<div class="content-container section projects-container">
+	<div class="paragraph-container">
+		<% link_to '/iru.html', :relative => true do %>
+			<div class="iru-index-pic"></div>
+		<% end %>
+		<% link_to '/foxybeats.html', :relative => true do %>
+			<div class="foxy-index-pic"></div>
+		<% end %>
+	</div>
+	<!--------------------WIP-------------------->
+	<br>
 	<h1 data-aos="flip-down" class="section-header">Currently working on</h1>
-	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione asperiores doloremque officia, a illo recusandae laboriosam voluptate sit autem similique labore neque iste, natus, tempore harum? Nihil nostrum voluptatem ipsam.</p>
+	<div class="paragraph-container">
+		<div class="ig-icon"></div>
+	</div>
 	<% if false %>
 		<p><%= link_to 'This is a link', '/iru.html', :relative => true %></p>
 		<p><%= link_to 'This is a link', '/foxybeats.html', :relative => true %></p>
 	<% end %>
 </div>
-
 <!--------------------SKILLS-------------------->
 <% languages = ["HTML5", "CSS3/Sass", "JavaScript", "Ruby"] %>
 <% frameworks = ["Ruby on Rails", "xReact", "xTailwind CSS", "Bootstrap", "SQL", "PostgreSQL", "SQLite3"] %>
