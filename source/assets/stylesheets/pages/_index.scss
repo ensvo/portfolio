@@ -139,7 +139,7 @@
 	.project-card {
 		margin: 4px;
 		.project-caption {
-			background: $light-teal;
+			background: $raisin;
 			padding: 8px;
 			font-weight: bold;
 			font-size: smaller;
@@ -147,7 +147,7 @@
 		}
 		.project-caption:hover {
 			text-decoration: none;
-			background: $teal;
+			background: $light-raisin;
 		}
 	}
 	.project-card:hover {
@@ -167,6 +167,12 @@
 		}
 		.wip-details {
 			background: $light-teal;
+		}
+		.wip-caption {
+			background: $light-teal;
+			padding: 8px;
+			font-weight: bold;
+			font-size: smaller;
 		}
 	}
 	.foxy-index-pic {
