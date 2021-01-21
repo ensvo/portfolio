@@ -90,6 +90,14 @@
 	}
 }
 
+.skill-content {
+	margin: 8px;
+	h4 {
+		font-family: "Poppins";
+		font-weight: 700;
+	}
+}
+
 // SECTION: ABOUT
 
 .about-container {
@@ -109,7 +117,7 @@
 	border: 2px solid white;
 	border-radius: 8px;
 	background-color: $lighter-teal;
-	padding: 0 1em;
+	padding: 0 0.5em;
 	margin: 4px;
 }
 
@@ -123,6 +131,9 @@
 	}
 	.paragraph-content {
 		flex: 0 1 400px;
+	}
+	.skill-content {
+		flex: 0 1 240px;
 	}
 	.foxy-index-pic {
 		background-image: url(/assets/images/foxybeats_landing.png);
@@ -167,6 +178,9 @@
 	.content-container {
 		width: 1000px;
 	}
+	.skill-content {
+		flex: 0 1 160px;
+	}
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media (max-width: 1024px) {
@@ -183,6 +197,9 @@
 	.paragraph-content {
 		flex: 0 1 480px;
 	}
+	.skill-content {
+		flex: 0 1 300px;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -198,19 +215,19 @@
 	}
 	.foxy-index-pic {
 		background-image: url(/assets/images/foxybeats_landing.png);
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: 50%;
-		height: 120px;
-		width: 240px;
+		// height: 240px;
+		width: 100vw;
 		// box-shadow: inset 0 0 0 1000px rgba(228, 241, 241, 0.5);
 	}
 	.iru-index-pic {
 		background-image: url(/assets/images/iru_landing.png);
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: 50%;
-		height: 120px;
-		width: 240px;
+		// height: 240px;
+		width: 100vw;
 	}
 }
