@@ -1,6 +1,7 @@
 <div class="content-container intro-container">
 	<div class="intro-pic"></div>
 	<div>
+
 		<div class="intro-text">
 			<div data-aos="fade-right">
 				<h1 class="greeting-text">Hello!</h1>
@@ -9,6 +10,7 @@
 			<h1 data-aos="fade-left">I'm an Australian <span class="teal-text">web developer</span></h1>
 			<h1 data-aos="fade-left">based in Tokyo since 2015.</h1>
 		</div>
+
 		<div class="circle-button-container">
 			<a href="#about">
 				<div class="circle-button"><i class="lni lni-emoji-happy"></i></div>
@@ -23,6 +25,7 @@
 				<div class="circle-button"><i class="lni lni-comments-alt"></i></div>
 			</a>
 		</div>
+
 	</div>
 </div>
 
@@ -32,17 +35,21 @@
 	<div class="content-container section about-container">
 		<h1 data-aos="flip-down" class="section-header">Let me tell you a little story...</h1>
 		<div class="paragraph-container">
+
 			<div class="paragraph-content">
 				<p>I am a full-stack web developer, committed to a journey of <a href="#skills">learning new tools and skills</a> in pursuit of channeling my creativity through creating memorable, maintainable websites with delightful UI.</p>
 				<p>(I particularly have a soft spot for CSS art and animations!)</p>
 			</div>
+
 			<div class="paragraph-content">
 				<p>I have a background in working for the Government of Japan and consulting Pharmaceutical companies from a <a href="http://www.linkedin.com/in/elizabeth-vo" target="_blank">fruitful 5 year career purely in start up environments</a> across the education sector, recruitment and sales.</p>
 			</div>
+
 			<div class="paragraph-content">
 				<p>There is almost nothing I love more than waking up on a warm Sunday morning to the <a href="https://youtu.be/oYEYc8Ge3nw" target="_blank">distant warbling of magpies</a> and the scent of freshly baked pastry meat pies.</p>
 				<p><em>Except maybe squashing the last bug in my code!</em> <i class="far fa-smile-wink"></i></p>
 			</div>
+
 		</div>
 	</div>
 </div>
@@ -50,25 +57,39 @@
 <!--------------------PROJECTS-------------------->
 <a id="projects"></a>
 <div class="content-container section projects-container">
-	<h1 data-aos="flip-down" class="section-header">Projects</h1>
+	<h1 data-aos="flip-down" class="section-header">Completed Projects</h1>
 	<div class="paragraph-container">
-		<% link_to '/iru.html', :relative => true do %>
-			<div class="iru-index-pic"></div>
-		<% end %>
-		<% link_to '/foxybeats.html', :relative => true do %>
-			<div class="foxy-index-pic"></div>
-		<% end %>
+
+		<div class="project-card">
+			<% link_to '/foxybeats.html', :relative => true do %>
+				<div class="foxy-index-pic"></div>
+				<div class="project-caption raisin-text">VIEW PROJECT <i class="lni lni-chevron-up-circle"></i></div>
+			<% end %>
+		</div>
+
+		<div class="project-card">
+			<% link_to '/iru.html', :relative => true do %>
+				<div class="iru-index-pic"></div>
+				<div class="project-caption raisin-text">VIEW PROJECT <i class="lni lni-chevron-up-circle"></i></div>
+			<% end %>
+		</div>
+
 	</div>
-	<!--------------------WIP-------------------->
+	<!--------------------IN THE WORKS-------------------->
 	<br>
-	<h1 data-aos="flip-down" class="section-header">Currently working on</h1>
-	<div class="paragraph-container">
-		<div class="ig-icon"></div>
+	<div class="content-container">
+		<div class="wip-container">
+			<div class="wip-square">
+				<h1>Currently working on</h1>
+			</div>
+			<div class="wip-square">
+				<div class="wip-details">
+					<div class="ig-icon"></div>
+					<p>SNS Project</p>
+				</div>
+			</div>
+		</div>
 	</div>
-	<% if false %>
-		<p><%= link_to 'This is a link', '/iru.html', :relative => true %></p>
-		<p><%= link_to 'This is a link', '/foxybeats.html', :relative => true %></p>
-	<% end %>
 </div>
 <!--------------------SKILLS-------------------->
 <% languages = ["HTML5", "CSS3/Sass", "JavaScript", "Ruby"] %>

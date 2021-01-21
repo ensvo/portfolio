@@ -90,14 +90,6 @@
 	}
 }
 
-.skill-content {
-	margin: 8px;
-	h4 {
-		font-family: "Poppins";
-		font-weight: 700;
-	}
-}
-
 // SECTION: ABOUT
 
 .about-container {
@@ -112,6 +104,15 @@
 	}
 }
 
+// SECTION: SKILLS
+
+.skill-content {
+	margin: 8px;
+	h4 {
+		font-family: "Poppins";
+		font-weight: 700;
+	}
+}
 .skill {
 	display: inline-block;
 	border: 2px solid white;
@@ -135,6 +136,39 @@
 	.skill-content {
 		flex: 0 1 240px;
 	}
+	.project-card {
+		margin: 4px;
+		.project-caption {
+			background: $light-teal;
+			padding: 8px;
+			font-weight: bold;
+			font-size: smaller;
+			transition: background-color 0.2s;
+		}
+		.project-caption:hover {
+			text-decoration: none;
+			background: $teal;
+		}
+	}
+	.project-card:hover {
+		text-decoration: none;
+	}
+
+	.wip-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		.wip-square {
+			width: 240px;
+			height: 240px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.wip-details {
+			background: $light-teal;
+		}
+	}
 	.foxy-index-pic {
 		background-image: url(/assets/images/foxybeats_landing.png);
 		background-size: cover;
@@ -155,8 +189,8 @@
 	.ig-icon {
 		background-image: url(/assets/images/ig_icon.png);
 		background-size: cover;
-		height: 160px;
-		width: 160px;
+		height: 128px;
+		width: 128px;
 	}
 }
 
@@ -187,6 +221,9 @@
 	.content-container {
 		width: 800px;
 	}
+	.skill-content {
+		flex: 0 1 300px;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -199,6 +236,14 @@
 	}
 	.skill-content {
 		flex: 0 1 300px;
+	}
+	.wip-container {
+		.wip-square {
+			width: 240px;
+			height: 160px;
+			display: grid;
+			place-items: center;
+		}
 	}
 }
 
