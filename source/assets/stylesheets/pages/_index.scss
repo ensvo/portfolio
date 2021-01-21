@@ -241,7 +241,8 @@
 		flex: 0 1 480px;
 	}
 	.skill-content {
-		flex: 0 1 300px;
+		flex: 0 1 240px;
+		margin: 16px;
 	}
 	.wip-container {
 		.wip-square {
@@ -264,6 +265,20 @@
 	.paragraph-content {
 		flex: 0 1 300px;
 	}
+	.skill-content {
+		flex: 0 1 136px;
+		margin: 8px;
+	}
+	.skills-container {
+		h4 {
+			font-size: smaller;
+		}
+	}
+	.skill {
+		font-weight: bold;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
 	.foxy-index-pic {
 		background-image: url(/assets/images/foxybeats_landing.png);
 		background-size: contain;
@@ -278,7 +293,6 @@
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: 50%;
-		// height: 240px;
 		width: 100vw;
 	}
 }
