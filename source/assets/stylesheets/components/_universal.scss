@@ -78,3 +78,11 @@ ul {
 	box-shadow: inset 0 0 0 1000px rgba(228, 241, 241, 0.85);
 	width: 100vw;
 }
+
+// BASIC ANIMATIONS
+.rotate-right {
+	transition: transform 0.2s;
+}
+.rotate-right:hover {
+	transform: rotate(90deg);
+}
